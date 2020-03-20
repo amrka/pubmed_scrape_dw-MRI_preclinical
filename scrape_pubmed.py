@@ -170,11 +170,11 @@ df_rats = scrape_pubmed(search)
 search = "diffusion tensor imaging AND ferrets"
 df_ferrets = scrape_pubmed(search)
 
-#search = "diffusion MRI AND mice"
-#df_mri_mice = scrape_pubmed(search)
+search = "diffusion MRI AND mice"
+df_mri_mice = scrape_pubmed(search)
 
-#search = "diffusion MRI AND rats"
-#df_mri_rats = scrape_pubmed(search)
+search = "diffusion MRI AND rats"
+df_mri_rats = scrape_pubmed(search)
 
 search = "diffusion MRI AND ferrets"
 df_mri_ferrets = scrape_pubmed(search)
